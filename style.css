@@ -1,0 +1,112 @@
+/* ===================== style.css ===================== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+  background-image: ;
+}
+
+.header {
+  background: #yellowgreen;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  background: #rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.products {
+  padding: 10px 10px;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.1);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 2fr));
+  gap: 10px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 35px;
+  border:solid 5px palegreen;
+}
+
+.product-card img {
+  width: 99%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  border:solid 3px;
+}
+
+.product-card button {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.about, .contact {
+  padding: 40px 30px;
+  background: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.return-policy {
+  padding: 40px 30px;
+  background: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+}
+.footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 28px;
+  padding: 12px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 100;
+}
+
+
